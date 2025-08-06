@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Videograph Style Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <table>
+      <tr>
+        <td class="logo">MyPortfolio</td>
+        <td class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#description">Description</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero-container" id="home">
+    <div class="overlay"></div>
+    <div class="content-table">
+      <table>
+        <tr>
+          <td>
+            <div class="content-box">
+              <h1>Hi, I’m <span>Boyini Sushmitha Reddy</span></h1>
+              <p>Passionate on Photography</p>
+              <button onclick="sayHello()">Contact Me</button>
+              <div class="social">
+                <a href="#">Instagram</a> |
+                <a href="#">LinkedIn</a> |
+                <a href="#">YouTube</a>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- About Me -->
+  <div class="about-section" id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Sushmitha Reddy. Passionate on Photography</p>
+  </div>
+
+  <!-- Description Section -->
+  <div class="description-section" id="description">
+    <h2>Description</h2>
+    <p>
+      Videograph is a stunning and jaw-dropping video portfolio website template for all videographers.
+      Whether you are an amateur or professional, this web design will do the trick. Sort out your online presence and raise your potential to new heights immediately.
+      With Videograph, you can create a strong and positive first impression on your visitors and potential clients. The beautiful, dark appearance creates a pleasant atmosphere when browsing your content.
+      Videograph uses only the latest technologies to ensure exceptional performance on all devices and platforms.
+    </p>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="projects-section" id="projects">
+    <h2>My Projects</h2>
+    <table class="projects-table">
+      <tr>
+        <td>
+          <div class="project-card">
+            <img src="nature.jpg" alt="Project 1">
+            <p>Nature Highlights</p>
+          </div>
+        </td>
+        <td>
+          <div class="project-card">
+            <img src="travel.jpg" alt="Project 2">
+            <p>Travel Documentary</p>
+          </div>
+        </td>
+        <td>
+          <div class="project-card">
+            <img src="flower.jpg" alt="Project 3">
+            <p>Floral vibes</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <table class="contact-table">
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" required></td>
+        </tr>
+        <tr>
+          <td><label for="message">Message:</label></td>
+          <td><textarea id="message" rows="5" required></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align:center;">
+            <button type="submit">Send</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
